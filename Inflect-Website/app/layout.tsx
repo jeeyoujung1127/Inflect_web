@@ -8,7 +8,11 @@ export const metadata: Metadata = {
   description: "AI로 미국 진출(GTM) 성공 확률과 진단 리포트를 생성합니다.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="ko">
       <body>
